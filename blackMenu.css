@@ -1,0 +1,138 @@
+.black_navbar_logo{
+    width: 8%;
+    margin-left:12%;
+    border: solid 1px white;
+    margin-top: 25%;
+}
+
+.black_menu{
+    margin-left:12%;
+    margin-top: 9%;
+}
+
+ul li{
+    margin: 2% 0;
+}
+
+ul a{
+    text-decoration: none;
+    color: #d1cfcf;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+ul a:hover{
+    color: white;
+}
+
+.menu_pics{
+    margin-top: 5%;
+    width: 45%;
+    height: 42vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12%;
+}
+
+
+#menu-imgs1{
+    width:49%;
+    height:48%;
+    background-image: url(./images/residental.jpg);
+    background-size: cover;
+    background-position: center;   
+    margin: auto;
+}
+#menu-imgs2{
+    width:49%;
+    height:48%;
+    background-image: url(./images/public.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+#menu-imgs3{
+    width:49%;
+    height:48%;
+    background-image: url(./images/hotels.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+#menu-imgs4{
+    width:49%;
+    height:48%;
+    background-image: url(./images/urban.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.menu_pics h4{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    transition: all 0.4s ease;
+}
+
+.dark_menu_logos img{
+    width: 25px;
+    height: auto;
+}
+
+.dark_menu_logos{
+    margin-left: 11%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media(max-width:800px){
+    .menu_pics{
+        width: 50%;
+        height: 42vh; 
+    }
+    .black_navbar_logo{
+        width: 10%;
+    }
+    .menu_pics h4{
+        opacity: 1;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:700px){
+    .menu_pics{
+        width: 55%;
+        height: 42vh; 
+    }
+}
+
+@media(max-width:600px){
+    .menu_pics{
+        width: 60%;
+        height: 42vh; 
+    }
+}
+
+@media(max-width:501px){
+    .menu_pics{
+        width: 75%;
+        height: 38vh; 
+    }
+    .black_navbar_logo{
+        width:12%;
+    }
+    .dark_menu_logos img{
+        width: 20px;
+        height: auto;
+    }
+    .menu_pics h4{
+        opacity: 1;
+        font-size: 14px;
+    }
+}

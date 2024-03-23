@@ -1,0 +1,143 @@
+footer{
+    width: 100%;
+    height: fit-content;
+    margin-top: 10vh;
+    background-color: black;
+}
+
+.row{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+
+.block{
+    width: 20%;
+    height: 40vh;
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+
+.block p{
+    margin-top: 5%;
+}
+
+.p-txt{
+    margin-top: 15% !important;
+}
+
+.row p{
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 10%;
+}
+
+.row h1{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.footer-logo{
+    width: 80px;
+    height: auto;
+    margin-top: 25%;
+    margin-left: 10%;
+    border: solid 1px white;
+}
+
+.footer_logos {
+    margin-left:8% ;
+    margin-top: 12%;
+    
+}
+
+.footer_logos a{
+    width: fit-content;
+    height: 40vh;
+}
+
+.footer_logos img{
+    width:25px;
+    height: auto;
+}
+
+@media(max-width:800px){
+    .row p{
+        font-size: 13px;
+    } 
+    .row h1{
+        font-size: 16px;
+    }
+    .footer-logo{
+        width: 70px;
+        height: auto;
+    }
+}
+
+@media(max-width:600px){
+    .row p{
+        font-size: 12px;
+    } 
+    .row h1{
+        font-size: 14px;
+    }
+    .row{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .logo-block{
+        height: 17vh !important;
+    }
+    .block{
+        margin-top: 2%;
+        width: 90%;
+        height: 10vh;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .p-txt{
+        margin-top: 0;
+    }
+    .block p{
+        margin-top: 1% !important;
+    }
+    .row h1{
+        margin-top: 0;
+        
+    }
+    .footer-logo{
+        margin-top: 0;
+    }
+    .footer_logos {
+        margin-left:7% ;
+        margin-top: 0;
+        
+    }
+}
+
+@media(max-width:500px){
+    .row p{
+        font-size: 10px;
+    } 
+    .row h1{
+        font-size: 12px;
+    }
+    .footer-logo{
+        width: 50px;
+        height: auto;
+    }
+    .footer_logos img{
+        width:20px;
+        height: auto;
+    }
+}
